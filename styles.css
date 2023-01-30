@@ -1,0 +1,132 @@
+
+*{
+    background: #F3F5FC;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.imagen-alura{
+    padding-top: 30px;
+    margin-left: 40px;
+    width: 12%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.texto-encriptar{
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    margin-left: 100px;
+    text-transform: lowercase;
+
+}
+::placeholder{color: #0a3871;}
+    .texto-encriptar:focus {
+        outline: none;
+    }
+
+.mensaje{
+    background: white;
+    background-image: url(imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-right: 98px;
+    margin-top: 90px;
+    padding-left: 28px;
+    position: absolute;
+}
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+.btn-desencriptar{
+    position: relative;
+    background: #D8DFE8;
+    border: 1px solid #0a3871;
+    border-radius: 18px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar{
+    position: relative;
+    background: #0a3871;
+    border: #0a3871 ;
+    border-radius: 18px;
+    cursor: pointer;
+    color: white;
+    height: 67px;
+    width: 328px;
+    margin-left: 300px;
+}
+
+.btn-copiar{
+    display: none;
+    background: #D8DFE8;
+    border:1px solid #00008b;
+    border-radius: 18px;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 25px;
+    margin-top: 490px;
+    position:relative;
+}
+
+.btn-encriptar:hover{
+    background: #00008b;
+       transition: 0.5s;
+       transform: scale(1.01);
+   }
+   
+   .btn-desencriptar:hover{
+       background: #746befb8;
+       color:#010161;
+       transition: 0.5s;
+       transform: scale(1.01);
+   }
+
+.btn-copiar:hover{
+    background: #050aa8;
+    color: #ffffff;
+    transition: 0.5s;
+    transform: scale(1.01);
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+
+
+footer{
+    margin-left: 1150px;
+    position: relative;
+    bottom:0;
+    margin-right: 200px;
+    width: 100%;
+    height: 50px;
+
+}
+.copyright{
+    display: flexbox;
+    font-size: 15x;
+}
+
