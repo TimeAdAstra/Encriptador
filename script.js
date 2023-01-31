@@ -1,12 +1,15 @@
 function encriptar(){
+
+    var textoContenedor = document.getElementById("textoEncriptado");
     var texto = document.getElementById("textoEncriptado").value.toLowerCase();
+
     
              var textoEncriptado = texto.replace(/e/img, "enter");
              var textoEncriptado = textoEncriptado.replace(/o/img, "ober");
              var textoEncriptado = textoEncriptado.replace(/i/img, "imes");
              var textoEncriptado = textoEncriptado.replace(/a/img, "ai");
              var textoEncriptado = textoEncriptado.replace(/u/img, "ufat");
-             textoEncriptado.value = "";
+             textoContenedor.value = "";
             
         document.getElementById("mensajeDesencriptado").innerHTML = textoEncriptado;
         document.getElementById("btn-copiado").style.display = "show";
