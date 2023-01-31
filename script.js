@@ -20,6 +20,7 @@ function encriptar(){
 }
     
 function desencriptar(){
+    var textoContenedor = document.getElementById("textoEncriptado");
     var texto = document.getElementById("textoEncriptado").value.toLowerCase();
 
     var textoEncriptado = texto.replace(/enter/img, "e");
@@ -27,6 +28,7 @@ function desencriptar(){
     var textoEncriptado = textoEncriptado.replace(/imes/img, "i");
     var textoEncriptado = textoEncriptado.replace(/ai/img, "a");
     var textoEncriptado = textoEncriptado.replace(/ufat/img, "u");
+    textoContenedor.value = "";
 
     document.getElementById("mensajeDesencriptado").innerHTML = textoEncriptado;
 }
